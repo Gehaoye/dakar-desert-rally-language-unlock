@@ -168,6 +168,7 @@ UE4 `_P` patch pak 机制、`path hash seed` 的十进制坑、Oodle DLL 坑，�
 
 - [repak](https://github.com/trumank/repak) — UE4 pak 读写（Apache-2.0 / MIT）
 - [OodleUE](https://github.com/WorkingRobot/OodleUE) — Oodle 库分发
+- [DeepSeek](https://www.deepseek.com/) — 全程使用的推理模型（DeepSeek-V4.1-Flash），从 pak 结构分析、文本格式逆向，到解锁脚本与本文档成稿
 - 以及所有发现这个游戏把语言包藏起来的人
 
 ---
@@ -200,3 +201,11 @@ Defaults to Chinese over the English slot. Change `SRC_LANG` / `TARGET_LANG` at 
 Coverage: message table 68.6% (Chinese), roadbook 96.6% plus 43 hand-translated rally terms.
 The remaining 1,736 entries are team/manufacturer names, numbers and driver interviews that the
 publisher never localized either.
+
+### Credits
+
+- [repak](https://github.com/trumank/repak) — UE4 pak tooling (Apache-2.0 / MIT)
+- [OodleUE](https://github.com/WorkingRobot/OodleUE) — Oodle library redistribution
+- [DeepSeek](https://www.deepseek.com/) — the reasoning model used throughout this project
+  (DeepSeek-V4.1-Flash), from pak analysis and format reversing all the way to the unlocker script
+  and this document
