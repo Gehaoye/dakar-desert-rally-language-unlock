@@ -1,6 +1,4 @@
-# 达喀尔赛车拉力赛（Dakar Desert Rally）Epic 版语言包解锁
-
-> **以简体中文为例** · 日语 / 俄语 同理可解锁 · 波兰语数据为空（见下方说明）
+# 达喀尔赛车拉力赛（Dakar Desert Rally-epic平台版本语言包解锁-中文为例-可自行探索日语、俄语、波兰语）
 
 ![platform](https://img.shields.io/badge/platform-Windows%20·%20Epic%20%2F%20Steam-blue)
 ![engine](https://img.shields.io/badge/engine-Unreal%20Engine%204-lightgrey)
