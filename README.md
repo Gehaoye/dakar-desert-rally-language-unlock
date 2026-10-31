@@ -169,7 +169,6 @@ UE4 `_P` patch pak 机制、`path hash seed` 的十进制坑、Oodle DLL 坑，�
 - [repak](https://github.com/trumank/repak) — UE4 pak 读写（Apache-2.0 / MIT）
 - [OodleUE](https://github.com/WorkingRobot/OodleUE) — Oodle 库分发
 - [DeepSeek](https://www.deepseek.com/) — 全程使用的推理模型（DeepSeek-V4.1-Flash），从 pak 结构分析、文本格式逆向，到解锁脚本与本文档成稿
-- 以及所有发现这个游戏把语言包藏起来的人
 
 ---
 
