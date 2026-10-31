@@ -33,8 +33,20 @@ MOUNT_POINT = "../../../"
 PATH_HASH_SEED = 1778378931  # 0x69FFE8B3, read from `repak info`
 
 # --- language IDs (see EFFLanguage.txt) --------------------------------------
-SRC_LANG = "10"  # Chinese (Simplified)
-TARGET_LANG = "1"  # English
+# --- 语言表参数 ---------------------------------------------------------------
+# SRC_LANG = 要解锁的语言 ID（数据里存在的）：
+#   10 = Chinese (Simplified)  ← 默认
+#    9 = Japanese              （覆盖最高，87.5%）
+#   11 = Russian
+#    5 = Polish                ← 无数据，脚本会直接报错退出
+SRC_LANG = "10"
+
+# TARGET_LANG = 要覆盖的可见槽位。**保持 1（English）不要改。**
+# English 槽位会被正常读取，且它是游戏默认语言 —— 写它就够了：
+# 装完补丁进游戏什么都不用设置，界面/页面/字幕直接是中文，语音保持英文。
+# 改到 French(3)/Italian(7) 等其它槽位后，必须在游戏里跟着切 Subtitle Language
+# 才能生效，而且反复切换语言会踩到游戏自身的存档 bug（见 README「已知问题」）。
+TARGET_LANG = "1"
 
 # --- text tables inside pakchunk0 -------------------------------------------
 TABLE_DIR = "Dakar2Game/Content/Database/FFTranslation"
