@@ -1,14 +1,16 @@
 # 达喀尔赛车拉力赛（Dakar Desert Rally-epic平台版本语言包解锁-中文为例-可自行探索日语、俄语、波兰语）
 
-![platform](https://img.shields.io/badge/platform-Windows%20·%20Epic%20%2F%20Steam-blue)
+![platform](https://img.shields.io/badge/platform-Windows%20·%20Epic%20Games%20Store-0078D4)
 ![engine](https://img.shields.io/badge/engine-Unreal%20Engine%204-lightgrey)
 ![python](https://img.shields.io/badge/python-3.8%2B-yellow)
+
+> **本工具针对 Epic Games Store 版本实测通过。** Steam 版目录结构相同、原理一致，但未做实测验证。
 
 ---
 
 ## 这是什么
 
-《达喀尔赛车拉力赛》（Dakar Desert Rally）PC 版的语言菜单只提供 7 种语言，**没有中文**。
+《达喀尔赛车拉力赛》（Dakar Desert Rally）**Epic Games Store 版**的语言菜单只提供 7 种语言，**没有中文**。
 
 但游戏的 pak 归档里实际打包了 **11 种语言**——简体中文、日语、俄语、波兰语都在里面，
 只是 UI 从来没给它们入口。
@@ -48,7 +50,7 @@
 
 | 项 | 说明 |
 |---|---|
-| 游戏 | 正版 Dakar Desert Rally（Epic 版 / Steam 版目录结构相同） |
+| 游戏 | **Epic Games Store 版** Dakar Desert Rally（Steam 版目录结构相同、原理一致，未实测） |
 | Python | 3.8 或更高 |
 | [repak](https://github.com/trumank/repak) | UE4 pak 读写工具，单文件约 2 MB |
 | `oo2core_9_win64.dll` | Oodle 解压库，**必须与 repak.exe 放在同一目录** |
@@ -63,7 +65,7 @@ https://github.com/WorkingRobot/OodleUE
 ### 一条命令搞定
 
 ```bat
-git clone https://github.com/<用户名>/dakar-desert-rally-language-unlock.git
+git clone https://github.com/gehaoye/dakar-desert-rally-language-unlock.git
 cd dakar-desert-rally-language-unlock
 
 python scripts/unlock.py ^
@@ -173,7 +175,7 @@ UE4 `_P` patch pak 机制、`path hash seed` 的十进制坑、Oodle DLL 坑，�
 <a name="english"></a>
 ## English
 
-**Dakar Desert Rally — hidden language pack unlocker (Epic / Steam PC).**
+**Dakar Desert Rally — hidden language pack unlocker (Epic Games Store PC).**
 
 The PC build ships with **11 localizations** inside its pak archives, but the in-game language
 menu only exposes 7. Simplified Chinese (ID 10), Japanese (ID 9) and Russian (ID 11) are fully

@@ -6,7 +6,7 @@
 
 | 项 | 值 |
 |---|---|
-| 游戏 | Dakar Desert Rally（Steam appid 1839940，Epic 版同构） |
+| 游戏 | Dakar Desert Rally（**Epic Games Store 版，本文全部实测数据来自该版本**；Steam appid 1839940，目录结构相同） |
 | 引擎 | Unreal Engine 4 |
 | 安装目录结构 | `DakarDesertRally/{Dakar2Game,Engine}` |
 | pak 数量 | 10 个，合计约 56 GB |
