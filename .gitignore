@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# Extract artifacts and built paks - never commit game data
+*.pak
+DakarCN/
+FFMessageLanguage.txt
+FFTextLanguage.txt
+EFFLanguage.txt
+oo2core*.dll
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
